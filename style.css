@@ -266,3 +266,39 @@ flex-grow: 1;
     width: 80px;
     padding: 0.5em;
 }
+/* Responsive */
+
+@media (max-width: 768px){
+    .titulo {
+        font-size: 30px;
+    }
+    .addInfo{
+        width: fit-content;
+    }
+    .table{
+        width: 350px;
+    }
+    .add_data{
+        width: 350px;
+    }
+    
+}
+@media (max-width: 400px){
+    .rules{
+        width: 300px;
+    }
+    .title_bar{
+        text-align: left;
+    }
+    /* .frame{
+        width: 150px;}
+         */
+    .map{
+        display: block;
+        padding: 0;   
+    }
+    iframe{
+        position: absolute;
+        left: 10px;
+    }
+}
